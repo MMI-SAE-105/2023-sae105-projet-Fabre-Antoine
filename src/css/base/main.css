@@ -1,3 +1,48 @@
 body{
     background-color: black;
+    
+
+}
+.titre_page{
+    color: white;
+    font-family: Archivo Black;
+    font-size: 32px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.second_titre{
+    color: white;
+    font-family: Archivo Black;
+    font-size: 32px;
+    padding: 10px;
+    text-decoration: underline red;
+}
+.texte_accueil{
+    color: white;
+    font-family: Archivo Black;
+    font-size: 16px;
+    margin: 40px;
+    padding: 0;
+    text-align: center;
+}
+
+.bouton_savoirplus{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: Archivo Black;
+    display: flex;
+    align-items: center;
+    padding: 1rem; 
+    text-decoration: none;
+    border-radius: 20px;   
+    font-size: 18px;
+}
+
+
+.card_home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
 }
