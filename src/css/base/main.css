@@ -9,6 +9,7 @@ body{
     width: 100%;
     z-index: -1;
     top: 0;
+    height: 400px;
 }
 
 .titre_accueil{
@@ -51,6 +52,18 @@ body{
 
 
 .card_home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+
+    height: 500px;
+    justify-content: flex-end;
+    
+}
+
+.card_accueil{
     display: flex;
     flex-direction: column;
     align-items: center;
