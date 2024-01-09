@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{isMenuOpen : false}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
-<body>
+<body  :class="{'noscroll': isMenuOpen}">
     <header>
         <div class="headband">
-        <a href="index.html"><img class="logo_site" src="public/icones/logo_casque1.svg" alt="Le logo du site"></a>
-        <p class="titre_site">Rush Racing Rivals</p>
-        <img class="bouton_menu" src="public/icones/align-justify1.svg" alt="bouton menu">
+            <a href="index.html"><img class="logo_site" src="public/icones/logo_casque1.svg" alt="Le logo du site"></a>
+            <p class="titre_site">Rush Racing Rivals</p>
+            <!-- <img class="bouton_menu" src="public/icones/align-justify1.svg" alt="bouton menu"> -->
+            <div class="burger-content">
+                <input type="checkbox" id="toggle" class="burger-input">
+                <label @click="isMenuOpen = !  isMenuOpen" class="burger-label" for="toggle"></label>
+            </div>
         </div>
         <hr class="ligne_rouge">
-    </header>
+
+        <nav class="menu"
+            :class="{'menu-actif' : isMenuOpen}">
+            
+        </nav> 
+     </header>
     <div class="card_accueil">
         <div class="degradé_image">
         <img class="image_accueil" class="image" src="public/img/Hunt_et_lauda.webp" alt="James Hunt et Niki Lauda">

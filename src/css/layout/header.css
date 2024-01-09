@@ -3,14 +3,15 @@ header{
 }
 .headband{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     background-color: black;
+
+    height: 70px;
 }
 .titre_site{
     font-family: playfair display;
     color: white;
-    align-items: center;
 }
 .bouton_menu{
     display: flex;
@@ -20,6 +21,10 @@ header{
     height: 43px;
 }
 .logo_site{
+    position: absolute;
+    top: 0;
+    left: 0;
+
     width: 44px;
     height: 44px;
     margin: 10px;
