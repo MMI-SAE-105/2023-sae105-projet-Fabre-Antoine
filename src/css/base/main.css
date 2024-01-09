@@ -76,3 +76,46 @@ body{
 .degradé_image{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgb(0, 0, 0));
 }
+.texte_article{
+    background-color: white;
+    padding: 15px;
+    font-family: Mulish;
+    margin-bottom: 0px;
+}
+.légende_image{
+    color: white;
+    font-family: archivo black;
+    font-size: 15px;
+    margin: 10px;
+
+}
+.bouton_article{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Archivo Black;
+    display: flex;
+    padding: 1rem; 
+    text-decoration: none;
+    border: solid 1px #ffffff;;  
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 220px;
+    margin-top: 10px;
+    justify-content: center;
+
+}
+.titre_page{
+    color: white;
+    font-family: Archivo Black;
+    font-size: 32px;
+    margin: 17px;
+    padding: 0px;
+    text-align: left;
+    padding-top: 260px;
+
+}
+.image_page_article{
+    position: relative;
+}
+
