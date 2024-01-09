@@ -22,3 +22,10 @@
     border: solid 1px #ffffff;
     padding: 5px;
 }
+.message_remerciement{
+    font-family: Archivo Black;
+    color: white;
+    font-size: 15px;
+    margin: 20px;
+    margin-top: 0px;
+}
