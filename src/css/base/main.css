@@ -158,4 +158,12 @@ body{
     margin-left: 5px;
     margin-right: 5px;
 }
-
+.titre_page_spécial{
+    display: flex;
+    justify-content: center;
+}
+.titre_page_spécial{
+    color: white;
+    font-family: Archivo Black;
+    font-size: 32px;
+}
