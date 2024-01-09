@@ -1,0 +1,70 @@
+.bouton_footer{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: playfair display;
+    border: solid 1px white;
+    padding: 5px;
+    width: 143px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.ligne_bouton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.nom_footer{
+    color: white;
+    font-family: playfair display;
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+.BUT_mmi{
+    color: white;
+    font-family: playfair display;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ligne_bouton_langue{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    align-items: center;
+}
+.bouton_langue{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Archivo Black;
+    border: solid 1px white;
+    padding: 10px;
+    margin-top: 20px;
+}
+.mail{
+    color: white;
+    font-family: playfair display;
+    margin-left: 10px;
+}
+.mentions_légal{
+    color: white;
+    font-family: playfair display;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.ligne_logo_mmi{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    
+}
+.logo_mmi{
+    margin-right: 10px;
+}
