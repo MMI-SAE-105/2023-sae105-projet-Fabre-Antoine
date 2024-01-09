@@ -1,20 +1,36 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{isMenuOpen : false}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livre</title>
+    <title>Accueil</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
-<body>
+<body  :class="{'noscroll': isMenuOpen}">
     <header>
         <div class="headband">
-        <a href="index.html"><img class="logo_site" src="public/icones/logo_casque1.svg" alt="Le logo du site"></a>
-        <p class="titre_site">Rush Racing Rivals</p>
-        <img class="bouton_menu" src="public/icones/align-justify1.svg" alt="bouton menu">
+            <a href="index.html"><img class="logo_site" src="public/icones/logo_casque1.svg" alt="Le logo du site"></a>
+            <p class="titre_site">Rush Racing Rivals</p>
+            <!-- <img class="bouton_menu" src="public/icones/align-justify1.svg" alt="bouton menu"> -->
+            <div class="burger-content">
+                <input type="checkbox" id="toggle" class="burger-input">
+                <label @click="isMenuOpen = !  isMenuOpen" class="burger-label" for="toggle"></label>
+            </div>
         </div>
         <hr class="ligne_rouge">
-    </header>
+
+        <nav class="menu"
+            :class="{'menu-actif' : isMenuOpen}">
+            <ul class="menu_list">
+                <a href="Replique.html"><li class="menu_element">La Réplique</li></a> 
+                <a href="Rush.html"><li class="menu_element">Rush</li></a> 
+                <a href="realisateur.html"><li class="menu_element">Ron Howard</li></a> 
+                <a href="hanszimmer.html"><li class="menu_element">1976</li></a> 
+                <a href="livre.html"><li class="menu_element">1000 Grand Prix</li></a>
+            </ul>
+        </nav> 
+     </header>
     <div class="image_page_article degradé_image">
         <img class="image image_accueil" src="public/img/1000-Grands-Prix-70-ans-de-Formule-1.webp" alt="Livre F1">
         <h1 class="titre_page">Le livre qui retrace l'histoire de la Formule 1 depuis sa création</h1>
@@ -59,15 +75,24 @@
             <a href="https://www.fnac.com/a17926338/Gunther-Steiner-Surviving-to-drive#omnsearchpos=1">Voir +</a>
         </div>
 
-    <footer>
-        <hr>
-        <p>Antoine Fabre</p>
-        <p>BUT MMI Montbéliard</p>
-        <p>Mail : Antoine.fabre0811@gmail.com</p>
-        <a href="Contact.html">Contact</a><a href="A_propos.html">A propos</a>
-        <a href="Autre_projets.html">Autre projets</a><a href="glossaire.html">Glossaire</a>
-        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard</p>
-        <img src="public/icones/MMI_-_logo_quadri_-white.svg" alt="Logo MMI Montbéliard">
-    </footer>
-</body>
-</html>
+        <footer>
+            <hr class="ligne_rouge">
+            <div class="ligne_bouton_langue">
+            <p class="nom_footer">Antoine Fabre</p>
+            <a  class="bouton_langue" href="">English</a>
+            </div>
+            <a class="mail" href="mailto:Antoine.fabre0811@gmail.com">Antoine.fabre0811@gmail.com</a>
+            <p class="BUT_mmi">BUT MMI Montbéliard</p>
+            <div class="ligne_bouton">
+            <a class="bouton_footer" href="Contact.html">Contact</a><a class="bouton_footer" href="A_propos.html">A propos</a>
+            </div>
+            <div class="ligne_bouton">
+            <a class="bouton_footer" href="Autre_projets.html">Autre projets</a><a class="bouton_footer" href="glossaire.html">Glossaire</a>
+            </div>
+            <div class="ligne_logo_mmi">
+            <p class="mentions_légal">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard</p>
+            <a class="logo_mmi" href="http://www.iut-bm.univ-fcomte.fr/pages/fr/dpt-mmi---actualites-18542.html"><img src="public/icones/MMI_-_logo_quadri_-white.svg" alt="Logo MMI Montbéliard"></a>
+            </div>
+        </footer>
+    </body>
+    </html>

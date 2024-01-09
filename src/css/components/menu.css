@@ -81,6 +81,6 @@
     font-family: Archivo Black;
     margin-bottom: 60px;
     font-size: 24px;
-    text-decoration: underline red;
+    text-decoration: underline rgb(255, 0, 0);
     text-underline-offset: 5px;
 }
