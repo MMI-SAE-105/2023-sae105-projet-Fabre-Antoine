@@ -118,4 +118,44 @@ body{
 .image_page_article{
     position: relative;
 }
+.titre_secondaire{
+    color: white;
+    font-family: Archivo Black;
+    font-size: 32px;
+    padding: 10px;
+    
+
+}
+.section_titre_secondaire{
+    display: flex;
+    justify-content: center;
+
+}
+
+.affiche_film_similaire{
+    width: 220px;
+    height: 340px;
+}
+.card_film_similaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.bouton_voirplus{
+    color: white;
+    font-family: playfair display;
+    font-size: 20px;
+    text-decoration: none;
+    border: solid 1px #ffffff;
+    padding: 1rem;
+}
+.legende_affiche_film{
+    font-family: playfair display;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
