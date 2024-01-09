@@ -75,3 +75,12 @@
 .noscroll {
     overflow: hidden;
 }
+.menu_element {
+    color: #fff;
+    list-style: none;
+    font-family: Archivo Black;
+    margin-bottom: 60px;
+    font-size: 24px;
+    text-decoration: underline red;
+    text-underline-offset: 5px;
+}
