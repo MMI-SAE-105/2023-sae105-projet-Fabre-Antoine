@@ -25,10 +25,12 @@ header{
     margin: 10px;
 }
 .ligne_rouge{
-    border-color: red;
+    color: red;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: red;
+    border: 1px solid red;
     margin: 0px;
+    height: 2px;
 }
 
