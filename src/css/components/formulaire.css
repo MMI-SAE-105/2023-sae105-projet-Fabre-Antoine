@@ -1,0 +1,24 @@
+.formulaire__group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.formulaire__label{
+    font-family: Archivo Black;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.formulaire__button{
+    margin-left: 275px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-family: Archivo Black;
+    border: solid 1px #ffffff;
+    padding: 5px;
+}
