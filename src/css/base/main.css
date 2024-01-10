@@ -193,11 +193,21 @@ body{
     width: 170px;
     height: 270px;
 }
+
+.section_livre_sim {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fleche {
+    display: flex;
+    justify-content: center;
+}
+
 .card_livre{
     display: flex;
     flex-direction: column;
     align-items: center; 
-    margin-left: 120px;
 }
 .legende_affiche_livre{
     font-family: Archivo Black;
