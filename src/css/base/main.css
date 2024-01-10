@@ -48,7 +48,10 @@ body{
     background-color: black;
     margin-left: 20px;
     margin-right: 20px;
-    background-size: 100%;
+    
+}
+.section_texte_intro{
+    background-color: black;
 }
 
 .bouton_savoirplus{
