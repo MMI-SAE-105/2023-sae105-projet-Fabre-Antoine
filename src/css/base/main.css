@@ -42,11 +42,12 @@ body{
     color: white;
     font-family: Archivo Black;
     font-size: 16px;
-    margin: 20px;
+    margin-top: 0px;
     padding: 0;
     text-align: center;
-    margin-top: 10px;
     background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .bouton_savoirplus{
