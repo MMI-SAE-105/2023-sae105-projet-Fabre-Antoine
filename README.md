@@ -1,8 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/OLLHpiQA)
-- NOM : 
-- PRÉNOM :
-- URL du site :
-- URL FIGMA :
+- NOM : Fabre
+- PRÉNOM : Antoine
+- URL du site : https://merry-creponne-4cceea.netlify.app
+- URL FIGMA : https://www.figma.com/file/XkbJNj4K7HSzzJ7mkPkOUe/Maquettes-projet-individuel-%E2%80%94-Antoine-Fabre?type=design&node-id=1602%3A115&mode=design&t=MTg0YA26lvA5nYd8-1
 
 # Structure de départ pour le projet individuel.
 
