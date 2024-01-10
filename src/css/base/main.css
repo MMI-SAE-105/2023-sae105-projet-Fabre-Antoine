@@ -249,3 +249,13 @@ body{
     margin-left: 30px;
 
 }
+.vidéo{
+    width: 330px;
+    height: 250px;
+    
+}
+.section_video{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
