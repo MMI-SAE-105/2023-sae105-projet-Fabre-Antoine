@@ -196,7 +196,6 @@ body{
     font-family: Archivo Black;
     font-size: 15px;
     margin-right: 30px;
-
 }
 .card_projet{
     display: flex;
@@ -204,6 +203,7 @@ body{
     align-items: center;
     margin-bottom: 50px;
     gap: 20px;
+    text-decoration: none;
 }
 .image_livre{
     width: 170px;
@@ -259,3 +259,4 @@ body{
     justify-content: center;
     margin: 20px;
 }
+
