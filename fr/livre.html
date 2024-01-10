@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livre</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="/src/css/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body  :class="{'noscroll': isMenuOpen}">
     <header>
         <div class="headband">
-            <a href="index.html"><img class="logo_site" src="public/icones/logo_casque1.svg" alt="Le logo du site"></a>
+            <a href="index.html"><img class="logo_site" src="/public/icones/logo_casque1.svg" alt="Le logo du site"></a>
             <p class="titre_site">Rush Racing Rivals</p>
             <!-- <img class="bouton_menu" src="public/icones/align-justify1.svg" alt="bouton menu"> -->
             <div class="burger-content">
@@ -19,15 +19,14 @@
             </div>
         </div>
         <hr class="ligne_rouge">
-
         <nav class="menu"
             :class="{'menu-actif' : isMenuOpen}">
             <ul class="menu_list">
-                <a href="Replique.html"><li class="menu_element">La Réplique</li></a> 
-                <a href="Rush.html"><li class="menu_element">Rush</li></a> 
-                <a href="realisateur.html"><li class="menu_element">Ron Howard</li></a> 
-                <a href="hanszimmer.html"><li class="menu_element">1976</li></a> 
-                <a href="livre.html"><li class="menu_element">1000 Grand Prix</li></a>
+                <a class="lien_menu" href="Replique.html"><li class="menu_element">La Réplique</li></a> 
+                <a class="lien_menu" href="Rush.html"><li class="menu_element">Rush</li></a> 
+                <a class="lien_menu" href="realisateur.html"><li class="menu_element">Ron Howard</li></a> 
+                <a class="lien_menu" href="hanszimmer.html"><li class="menu_element">1976</li></a> 
+                <a class="lien_menu" href="livre.html"><li class="menu_element">1000 Grand Prix</li></a>
             </ul>
         </nav> 
      </header>
