@@ -36,6 +36,17 @@ body{
     padding: 0;
     text-align: center;
     margin-top: 10px;
+    
+}
+.texte_intro{
+    color: white;
+    font-family: Archivo Black;
+    font-size: 16px;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+    background-color: black;
 }
 
 .bouton_savoirplus{
